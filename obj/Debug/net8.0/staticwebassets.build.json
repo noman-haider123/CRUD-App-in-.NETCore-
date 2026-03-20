@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xcbb+IwMEnpGiN9Llesw2aR3Sc86H0syGEhfc91F8T0=",
+  "Hash": "cwzRnqExlx1HG6Afr5VVoYiHQ0en19Tg4s8eJQmsjj0=",
   "Source": "Noman",
   "BasePath": "_content/Noman",
   "Mode": "Default",
@@ -93,12 +93,12 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\images\\screencapture-hpanel-hostinger-billing-payment-history-paid-2026-02-24-04_42_50.png",
+      "Identity": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\images\\bronze.png",
       "SourceId": "Noman",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\",
       "BasePath": "_content/Noman",
-      "RelativePath": "images/screencapture-hpanel-hostinger-billing-payment-history-paid-2026-02-24-04_42_50.png",
+      "RelativePath": "images/bronze.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -109,7 +109,26 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\screencapture-hpanel-hostinger-billing-payment-history-paid-2026-02-24-04_42_50.png"
+      "OriginalItemSpec": "wwwroot\\images\\bronze.png"
+    },
+    {
+      "Identity": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\images\\snipping.png",
+      "SourceId": "Noman",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\",
+      "BasePath": "_content/Noman",
+      "RelativePath": "images/snipping.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\snipping.png"
     },
     {
       "Identity": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\js\\site.js",

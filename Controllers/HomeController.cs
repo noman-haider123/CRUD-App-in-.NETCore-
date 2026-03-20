@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Noman.Models;
 using Noman.Respository;
 using System.Diagnostics;
@@ -24,6 +25,12 @@ namespace Noman.Controllers
         [HttpGet]
         public IActionResult Create()
         {
+            List<SelectListItem> listItems = new List<SelectListItem>()
+            {
+                new SelectListItem{Text = "Male",Value = "Male"},
+                new SelectListItem{Text = "Female",Value = "Female"}
+            };
+            ViewBag.list = listItems;
             return View();
         }
         [HttpPost]
@@ -67,7 +74,13 @@ namespace Noman.Controllers
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
-           var student = await _student.Get(id);
+            List<SelectListItem> listItems = new List<SelectListItem>()
+            {
+                new SelectListItem{Text = "Male",Value = "Male"},
+                new SelectListItem{Text = "Female",Value = "Female"}
+            };
+            ViewBag.list = listItems;
+            var student = await _student.Get(id);
            if (student == null)
            {
                 return NotFound();

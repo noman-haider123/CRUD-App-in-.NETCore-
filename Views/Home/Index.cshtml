@@ -21,7 +21,12 @@
             <th>
                 Student Age
             </th>
-             
+             <th>
+                 Student Gender
+             </th>
+             <th>
+                 Student Marital Status
+             </th>
             <th>
                 Student Image
             </th>
@@ -38,6 +43,12 @@
             </td>
             <td>
                 @item.Age
+            </td>
+            <td>
+                @item.Gender
+            </td>
+            <td>
+              @(item.Married ? "Yes" : "No")
             </td>
             <td>
                 <img src="~/images/@item.Image" class="img-fluid" width="100" height="100" />

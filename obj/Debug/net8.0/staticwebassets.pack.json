@@ -13,8 +13,12 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\images\\screencapture-hpanel-hostinger-billing-payment-history-paid-2026-02-24-04_42_50.png",
-      "PackagePath": "staticwebassets\\images\\screencapture-hpanel-hostinger-billing-payment-history-paid-2026-02-24-04_42_50.png"
+      "Id": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\images\\bronze.png",
+      "PackagePath": "staticwebassets\\images\\bronze.png"
+    },
+    {
+      "Id": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\images\\snipping.png",
+      "PackagePath": "staticwebassets\\images\\snipping.png"
     },
     {
       "Id": "C:\\Users\\admin\\source\\repos\\Noman\\Noman\\wwwroot\\js\\site.js",

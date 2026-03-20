@@ -20,5 +20,11 @@ namespace Noman.Models
         public string? Image { get; set; }
         [NotMapped]
         public IFormFile? UploadImage { get; set; }
+        [Column("StudentGender",TypeName = "varchar(100)")]
+        [Required]
+        public string Gender { get; set; }
+        [Column("StudentMaritialStatus",TypeName = "varchar(20)")]
+        [Required]
+        public bool Married { get; set; }
     }
 }

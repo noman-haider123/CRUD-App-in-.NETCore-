@@ -251,3 +251,4 @@ C:\Users\admin\source\repos\Noman\Noman\bin\Debug\net8.0\ru\Microsoft.CodeAnalys
 C:\Users\admin\source\repos\Noman\Noman\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\admin\source\repos\Noman\Noman\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\admin\source\repos\Noman\Noman\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+C:\Users\admin\source\repos\Noman\Noman\obj\Debug\net8.0\Noman.sourcelink.json

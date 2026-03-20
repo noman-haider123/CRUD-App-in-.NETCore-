@@ -49,6 +49,8 @@ namespace Noman.Respository
                 existingstudent.Description = student.Description;
                 existingstudent.Age = student.Age;
                 existingstudent.Image = student.Image;
+                existingstudent.Gender = student.Gender;
+                existingstudent.Married = student.Married;
                 _studentcontext.Students.Update(existingstudent);
                 await _studentcontext.SaveChangesAsync();
                 return existingstudent;

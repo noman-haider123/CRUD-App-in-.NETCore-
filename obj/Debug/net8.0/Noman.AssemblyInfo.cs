@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Noman")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b9ca2bd4f08fd1b316d9da3ff90883ea6d756169")]
 [assembly: System.Reflection.AssemblyProductAttribute("Noman")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Noman")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

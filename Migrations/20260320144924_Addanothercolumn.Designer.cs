@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Noman.Models;
 
@@ -11,9 +12,11 @@ using Noman.Models;
 namespace Noman.Migrations
 {
     [DbContext(typeof(StudentDbContext))]
-    partial class StudentDbContextModelSnapshot : ModelSnapshot
+    [Migration("20260320144924_Addanothercolumn")]
+    partial class Addanothercolumn
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -47,11 +50,6 @@ namespace Noman.Migrations
                     b.Property<string>("Image")
                         .HasColumnType("varchar(255)")
                         .HasColumnName("StudentImage");
-
-                    b.Property<string>("Married")
-                        .IsRequired()
-                        .HasColumnType("varchar(20)")
-                        .HasColumnName("StudentMaritialStatus");
 
                     b.Property<string>("Name")
                         .IsRequired()
